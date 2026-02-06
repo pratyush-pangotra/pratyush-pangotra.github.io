@@ -11,55 +11,62 @@ html,body{
 
 body{
     font-family: Arial, sans-serif;
-    body{
-    background-color: #f4f6f8;
-}
-
+    background-color: #0f172a;
+    color: #e5e7eb;
 }
 
 .main-container{
-    width: 800px;
-    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tagline{
+    color: #94a3b8;
+}
+
+.intro-card,
+.skills-box,
+.projects-box,
+.contact-section{
+    background-color: #111827;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
 }
 
 .intro-card{
-    margin-bottom: 30px;
-    background-color: white;
-    border-radius: 8px;
     display: flex;
-    margin: 40px 0;
     gap: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.intro-photo img{
+    border-radius: 8px;
 }
 
 .portfolio-row{
-    margin-bottom: 30px;
     display: flex;
     gap: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .skills-box{
-    background-color: white;
-    border-radius: 8px;
     width: 45%;
-    padding: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .projects-box{
     width: 55%;
-    padding: 15px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-
 h2{
-    background-color: #eef1f4;
-    padding: 8px;
-    margin-bottom: 10px;
+    color: #38bdf8;
+    margin-bottom: 12px;
 }
 
 table{
@@ -68,16 +75,29 @@ table{
 }
 
 td, th{
-    padding: 8px;
+    padding: 10px;
+    border-bottom: 1px solid #374151;
+}
+
+th{
+    color: #93c5fd;
 }
 
 a{
-    font-weight: 500;
-    color: blueviolet;
+    color: #60a5fa;
     text-decoration: none;
 }
+
+a:hover{
+    color: #93c5fd;
+}
+
 .contact-section{
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.footer{
+    text-align: center;
+    color: #9ca3af;
+    font-size: 14px;
 }
