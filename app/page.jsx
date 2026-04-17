@@ -843,7 +843,7 @@ export default function Home() {
           <div className="panel-card">
             <div className="panel-card-label">current degree</div>
             <div className="panel-card-value" style={{fontSize:'15px',fontFamily:'var(--mono)',fontWeight:400,letterSpacing:0}}>B.Tech ECE</div>
-            <div className="panel-card-sub">Semester II · Roll 2025A3R005</div>
+            <div className="panel-card-sub">Semester II</div>
           </div>
           <div className="panel-card">
             <div className="panel-card-label">competition</div>
@@ -880,7 +880,6 @@ export default function Home() {
                 <div style={{marginTop:'10px',display:'flex',gap:'6px',flexWrap:'wrap'}}>
                   <span className="proj-badge pb-blue">Semester II</span>
                   <span className="proj-badge pb-green">IoT Specialization</span>
-                  <span className="proj-badge pb-amber">YESIST12 Competitor</span>
                 </div>
               </div>
               <div className="tl-score blue">Active</div>
